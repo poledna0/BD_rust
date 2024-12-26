@@ -25,7 +25,7 @@ fn main() {
 
     meu_banco_de_dados.execute( 
         "INSERT INTO contas (nome, saldo, nome_sujo, data_nascimento, cpf, tem_divida) VALUES (?1, ?2, ?3, ?4, ?5, ?6)",
-        &["Henrique Poledna", "12.28", "false", "2004-08-12", "123.456.789-00", "false"],
+        &["Henrique Batata", "12.28", "false", "1821-15-12", "123.456.789-00", "false"],
     ).expect("Falha ao inserir dados"); 
     
 
